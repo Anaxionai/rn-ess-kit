@@ -1,0 +1,39 @@
+# What Node, Expo and Android make when you install, build or test (never commit it)
+node_modules/
+.expo/
+dist/
+web-build/
+coverage/
+*.tsbuildinfo
+expo-env.d.ts
+# Made by `npx expo prebuild` (only in the local release fallback)
+android/
+ios/
+*.aab
+*.apk
+
+# Signing keys and their passwords: never in Git (see release/README.md)
+*.jks
+*.keystore
+key.properties
+credentials.json
+*.pem
+
+# Firebase files made for your own project (see firebase/README.md)
+google-services.json
+GoogleService-Info.plist
+.firebaserc
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+emulator-data/
+
+# Secrets and local settings
+.env
+.env*.local
+.env.*
+!.env.example
+
+# Editors and Windows
+.DS_Store
+Thumbs.db

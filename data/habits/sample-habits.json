@@ -1,0 +1,506 @@
+{
+  "about": "HabitLoop sample data from the course kit (made up). 'habits' and 'checkIns' are demo data to load into the app. 'cases' are the six tricky dates for streak tests, each with check-ins, the moment 'now' and the right answers; 'extraCases' are two optional ones. Read data/habits/README.md.",
+  "version": 2,
+  "habits": [
+    {
+      "id": "h-water",
+      "name": "Drink 8 glasses of water",
+      "createdAt": "2026-11-01T07:30:00+05:30"
+    },
+    {
+      "id": "h-read",
+      "name": "Read 10 pages",
+      "createdAt": "2026-11-01T07:31:00+05:30"
+    },
+    {
+      "id": "h-walk",
+      "name": "Walk 20 minutes",
+      "createdAt": "2026-11-01T07:32:00+05:30"
+    }
+  ],
+  "checkIns": [
+    {
+      "habitId": "h-water",
+      "day": "2026-11-01",
+      "at": "2026-11-01T08:10:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-read",
+      "day": "2026-11-01",
+      "at": "2026-11-01T22:21:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-water",
+      "day": "2026-11-02",
+      "at": "2026-11-02T08:10:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-read",
+      "day": "2026-11-02",
+      "at": "2026-11-02T22:22:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-walk",
+      "day": "2026-11-02",
+      "at": "2026-11-02T18:30:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-water",
+      "day": "2026-11-03",
+      "at": "2026-11-03T08:10:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-walk",
+      "day": "2026-11-03",
+      "at": "2026-11-03T18:30:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-water",
+      "day": "2026-11-04",
+      "at": "2026-11-04T08:10:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-read",
+      "day": "2026-11-04",
+      "at": "2026-11-04T22:24:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-walk",
+      "day": "2026-11-04",
+      "at": "2026-11-04T18:30:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-water",
+      "day": "2026-11-05",
+      "at": "2026-11-05T08:10:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-read",
+      "day": "2026-11-05",
+      "at": "2026-11-05T22:25:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-walk",
+      "day": "2026-11-05",
+      "at": "2026-11-05T18:30:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-water",
+      "day": "2026-11-07",
+      "at": "2026-11-07T08:10:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-read",
+      "day": "2026-11-07",
+      "at": "2026-11-07T22:27:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-water",
+      "day": "2026-11-08",
+      "at": "2026-11-08T08:10:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-read",
+      "day": "2026-11-08",
+      "at": "2026-11-08T22:28:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-water",
+      "day": "2026-11-09",
+      "at": "2026-11-09T08:10:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-walk",
+      "day": "2026-11-09",
+      "at": "2026-11-09T18:30:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-water",
+      "day": "2026-11-10",
+      "at": "2026-11-10T08:10:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-read",
+      "day": "2026-11-10",
+      "at": "2026-11-10T22:30:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-walk",
+      "day": "2026-11-10",
+      "at": "2026-11-10T18:30:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-water",
+      "day": "2026-11-11",
+      "at": "2026-11-11T08:10:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-read",
+      "day": "2026-11-11",
+      "at": "2026-11-11T22:31:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-walk",
+      "day": "2026-11-11",
+      "at": "2026-11-11T18:30:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-water",
+      "day": "2026-11-12",
+      "at": "2026-11-12T08:10:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-walk",
+      "day": "2026-11-12",
+      "at": "2026-11-12T18:30:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-water",
+      "day": "2026-11-13",
+      "at": "2026-11-13T08:10:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-read",
+      "day": "2026-11-13",
+      "at": "2026-11-13T22:33:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-walk",
+      "day": "2026-11-13",
+      "at": "2026-11-13T18:30:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-water",
+      "day": "2026-11-14",
+      "at": "2026-11-14T08:10:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-read",
+      "day": "2026-11-14",
+      "at": "2026-11-14T22:34:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "habitId": "h-walk",
+      "day": "2026-11-14",
+      "at": "2026-11-14T18:30:00+05:30",
+      "timeZone": "Asia/Kolkata"
+    }
+  ],
+  "cases": [
+    {
+      "id": "midnight",
+      "title": "Ticks at 23:59 and 00:01 are two different days",
+      "trap": "Code that groups ticks by 'less than 24 hours since the last tick', or by the moment's UTC date, puts both ticks in one day.",
+      "habitId": "h-read",
+      "now": "2026-11-21T08:00:00+05:30",
+      "timeZoneNow": "Asia/Kolkata",
+      "checkIns": [
+        {
+          "habitId": "h-read",
+          "day": "2026-11-20",
+          "at": "2026-11-20T23:59:00+05:30",
+          "timeZone": "Asia/Kolkata"
+        },
+        {
+          "habitId": "h-read",
+          "day": "2026-11-21",
+          "at": "2026-11-21T00:01:00+05:30",
+          "timeZone": "Asia/Kolkata"
+        }
+      ],
+      "expect": {
+        "doneToday": true,
+        "currentStreak": 2,
+        "bestStreak": 2
+      },
+      "wrongAnswer": {
+        "currentStreak": 1,
+        "why": "both ticks are 20 November in UTC (18:29 and 18:31 UTC)"
+      }
+    },
+    {
+      "id": "time-zone-change",
+      "title": "The user flies from London to India: using UTC hides a missed day",
+      "trap": "Code that turns every tick into a UTC date files the 03:00 tick in India (21:30 UTC the day before) under 20 November, so the missed 20 November looks done.",
+      "habitId": "h-walk",
+      "now": "2026-11-21T09:00:00+05:30",
+      "timeZoneNow": "Asia/Kolkata",
+      "checkIns": [
+        {
+          "habitId": "h-walk",
+          "day": "2026-11-19",
+          "at": "2026-11-19T22:00:00+00:00",
+          "timeZone": "Europe/London"
+        },
+        {
+          "habitId": "h-walk",
+          "day": "2026-11-21",
+          "at": "2026-11-21T03:00:00+05:30",
+          "timeZone": "Asia/Kolkata"
+        }
+      ],
+      "expect": {
+        "doneToday": true,
+        "currentStreak": 1,
+        "bestStreak": 1
+      },
+      "wrongAnswer": {
+        "currentStreak": 2,
+        "why": "in UTC the ticks are 19 and 20 November, so the gap on 20 November disappears"
+      }
+    },
+    {
+      "id": "gap",
+      "title": "A missed day breaks the streak, but the longest streak remembers",
+      "trap": "Code that keeps one running counter loses the longest streak when the current one resets.",
+      "habitId": "h-water",
+      "now": "2026-11-15T20:00:00+05:30",
+      "timeZoneNow": "Asia/Kolkata",
+      "checkIns": [
+        {
+          "habitId": "h-water",
+          "day": "2026-11-10",
+          "at": "2026-11-10T08:00:00+05:30",
+          "timeZone": "Asia/Kolkata"
+        },
+        {
+          "habitId": "h-water",
+          "day": "2026-11-11",
+          "at": "2026-11-11T08:00:00+05:30",
+          "timeZone": "Asia/Kolkata"
+        },
+        {
+          "habitId": "h-water",
+          "day": "2026-11-12",
+          "at": "2026-11-12T08:00:00+05:30",
+          "timeZone": "Asia/Kolkata"
+        },
+        {
+          "habitId": "h-water",
+          "day": "2026-11-14",
+          "at": "2026-11-14T08:00:00+05:30",
+          "timeZone": "Asia/Kolkata"
+        },
+        {
+          "habitId": "h-water",
+          "day": "2026-11-15",
+          "at": "2026-11-15T08:00:00+05:30",
+          "timeZone": "Asia/Kolkata"
+        }
+      ],
+      "expect": {
+        "doneToday": true,
+        "currentStreak": 2,
+        "bestStreak": 3
+      },
+      "wrongAnswer": {
+        "currentStreak": 5,
+        "why": "code that never checks for a missing day counts all five ticks"
+      }
+    },
+    {
+      "id": "same-day-twice",
+      "title": "Two ticks on the same day count once",
+      "trap": "Code that counts check-ins, not days, gives a streak of 3.",
+      "habitId": "h-water",
+      "now": "2026-11-06T09:00:00+05:30",
+      "timeZoneNow": "Asia/Kolkata",
+      "checkIns": [
+        {
+          "habitId": "h-water",
+          "day": "2026-11-05",
+          "at": "2026-11-05T08:00:00+05:30",
+          "timeZone": "Asia/Kolkata"
+        },
+        {
+          "habitId": "h-water",
+          "day": "2026-11-05",
+          "at": "2026-11-05T20:30:00+05:30",
+          "timeZone": "Asia/Kolkata"
+        },
+        {
+          "habitId": "h-water",
+          "day": "2026-11-06",
+          "at": "2026-11-06T08:00:00+05:30",
+          "timeZone": "Asia/Kolkata"
+        }
+      ],
+      "expect": {
+        "doneToday": true,
+        "currentStreak": 2,
+        "bestStreak": 2
+      },
+      "wrongAnswer": {
+        "currentStreak": 3,
+        "why": "three check-ins counted as three days"
+      }
+    },
+    {
+      "id": "not-yet-today",
+      "title": "Five minutes after midnight, not ticked yet: the streak is still alive",
+      "trap": "Code that counts back only from today says 0 until the user ticks today.",
+      "habitId": "h-read",
+      "now": "2026-11-03T00:05:00+05:30",
+      "timeZoneNow": "Asia/Kolkata",
+      "checkIns": [
+        {
+          "habitId": "h-read",
+          "day": "2026-11-01",
+          "at": "2026-11-01T20:00:00+05:30",
+          "timeZone": "Asia/Kolkata"
+        },
+        {
+          "habitId": "h-read",
+          "day": "2026-11-02",
+          "at": "2026-11-02T21:00:00+05:30",
+          "timeZone": "Asia/Kolkata"
+        }
+      ],
+      "expect": {
+        "doneToday": false,
+        "currentStreak": 2,
+        "bestStreak": 2
+      },
+      "wrongAnswer": {
+        "currentStreak": 0,
+        "why": "counting back from today, which has no tick yet"
+      }
+    },
+    {
+      "id": "month-end",
+      "title": "A streak runs across the end of the month: 29 and 30 November, then 1 December",
+      "trap": "Code that finds 'the day before' by taking 1 from the day number gets 0 December, not 30 November.",
+      "habitId": "h-walk",
+      "now": "2026-12-01T21:00:00+05:30",
+      "timeZoneNow": "Asia/Kolkata",
+      "checkIns": [
+        {
+          "habitId": "h-walk",
+          "day": "2026-11-29",
+          "at": "2026-11-29T18:30:00+05:30",
+          "timeZone": "Asia/Kolkata"
+        },
+        {
+          "habitId": "h-walk",
+          "day": "2026-11-30",
+          "at": "2026-11-30T18:30:00+05:30",
+          "timeZone": "Asia/Kolkata"
+        },
+        {
+          "habitId": "h-walk",
+          "day": "2026-12-01",
+          "at": "2026-12-01T07:15:00+05:30",
+          "timeZone": "Asia/Kolkata"
+        }
+      ],
+      "expect": {
+        "doneToday": true,
+        "currentStreak": 3,
+        "bestStreak": 3
+      },
+      "wrongAnswer": {
+        "currentStreak": 1,
+        "why": "the run stops at 1 December because '0 December' was not found"
+      }
+    }
+  ],
+  "extraCases": [
+    {
+      "id": "clocks-go-forward",
+      "title": "A day with 23 hours: New York clocks go forward on Sunday 8 March 2026",
+      "trap": "Code that counts days as (later minus earlier) divided by 24 hours gets 0 days between the 7 and 8 March ticks (23 hours apart) and treats them as one day.",
+      "habitId": "h-walk",
+      "now": "2026-03-09T23:00:00-04:00",
+      "timeZoneNow": "America/New_York",
+      "checkIns": [
+        {
+          "habitId": "h-walk",
+          "day": "2026-03-07",
+          "at": "2026-03-07T22:30:00-05:00",
+          "timeZone": "America/New_York"
+        },
+        {
+          "habitId": "h-walk",
+          "day": "2026-03-08",
+          "at": "2026-03-08T22:30:00-04:00",
+          "timeZone": "America/New_York"
+        },
+        {
+          "habitId": "h-walk",
+          "day": "2026-03-09",
+          "at": "2026-03-09T22:30:00-04:00",
+          "timeZone": "America/New_York"
+        }
+      ],
+      "expect": {
+        "doneToday": true,
+        "currentStreak": 3,
+        "bestStreak": 3
+      }
+    },
+    {
+      "id": "restart-next-day",
+      "title": "The app was closed at 23:58 and opened again at 00:03: today is a new day",
+      "trap": "Code that saved a 'doneToday: true' flag, or worked out 'today' once at start-up and kept it, still shows the habit as ticked.",
+      "habitId": "h-read",
+      "now": "2026-11-21T00:03:00+05:30",
+      "timeZoneNow": "Asia/Kolkata",
+      "checkIns": [
+        {
+          "habitId": "h-read",
+          "day": "2026-11-19",
+          "at": "2026-11-19T21:00:00+05:30",
+          "timeZone": "Asia/Kolkata"
+        },
+        {
+          "habitId": "h-read",
+          "day": "2026-11-20",
+          "at": "2026-11-20T23:57:00+05:30",
+          "timeZone": "Asia/Kolkata"
+        }
+      ],
+      "expect": {
+        "doneToday": false,
+        "currentStreak": 2,
+        "bestStreak": 2
+      },
+      "savedOnDisk": {
+        "savedAt": "2026-11-20T23:58:10+05:30",
+        "doneToday": true,
+        "note": "A stale flag the app should NOT have saved. Work out doneToday from the check-ins and the current date every time."
+      }
+    }
+  ]
+}
