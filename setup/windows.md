@@ -20,8 +20,9 @@ You do **not** need Android Studio, the Android SDK or an emulator: Expo Go on y
 
 | Tool | What it is for | When |
 |---|---|---|
-| Git for Windows (Git Bash) | Version control and your terminal | Week 1 |
-| VS Code + Expo Tools + ESLint | Where you write code | Week 1 |
+| Git for Windows (Git Bash) | Version control and your terminal | Week 1, Launchpad task 6 |
+| VS Code + Expo Tools + ESLint | Where you write code | Week 1, Launchpad task 7 |
+| The course kit | The files your tasks link to and copy. It lives in your home folder: `~/rn-ess-kit` | Week 1, Launchpad task 7 |
 | Node.js 24 LTS and npm | Runs Expo, Jest and the other tools | Week 1 |
 | Expo Go (on the phone) | Opens your app on the phone | Week 1 (day 1) |
 | Expo CLI | Starts your app: `npx expo start`. Comes with each project, never installed globally | Week 1 |
@@ -34,9 +35,11 @@ Run every command in **Git Bash**, unless a step says PowerShell.
 
 ## Part 1, week 1
 
+Launchpad task 6 does Step 1. Task 7 does Steps 2, 2b (the clone), 3 and 5, all in Git Bash. Step 4 is day 1 (task 4), and task 12 does Step 7. Do Step 6 (`adb`) when the Wi-Fi does not let your phone connect, or when your mentor says so.
+
 ### Step 1: Git for Windows
 
-Your Launchpad task installs Git from https://git-scm.com/downloads/win with the default options. Those options include Git Bash and Git Credential Manager (for signing in to GitHub).
+Launchpad task 6 installs Git from https://git-scm.com/downloads/win with the default options. Those options include Git Bash and Git Credential Manager (for signing in to GitHub).
 
 Check it in Git Bash: `git --version` prints `git version 2.` and more numbers. Any version from 2.45 is fine.
 
@@ -44,14 +47,20 @@ Check it in Git Bash: `git --version` prints `git version 2.` and more numbers. 
 
 1. Install VS Code from https://code.visualstudio.com/download with the default options. Tick **Add to PATH** if the installer asks.
 2. Make Git Bash the terminal: press Ctrl+Shift+P, type `Terminal: Select Default Profile` and choose **Git Bash**.
-3. Line endings: open **Settings** (Ctrl+,), search for `eol` and set **Files: Eol** to `\n`.
+3. Line endings: open **Settings** (Ctrl+,), search for `eol` and set **Files: Eol** to `\n`. This is the setting `"files.eol": "\n"`.
 4. Select **Extensions** (Ctrl+Shift+X) and install **Expo Tools** (from Expo) and **ESLint** (from Microsoft).
 
-Check it: open a new terminal with Ctrl+`. The prompt shows `MINGW64`. Open a new file: the status bar at the bottom right shows `LF`.
+Check it: open a new terminal (**Terminal**, then **New Terminal** in the top menu). The prompt shows `MINGW64`. Open a new file: the status bar at the bottom right shows `LF`, not `CRLF`. In Git Bash, this prints the Eol setting:
+
+```bash
+grep eol "$APPDATA/Code/User/settings.json"
+```
+
+Your task asks you to paste that line into `evidence.md`. If it prints nothing, set **Files: Eol** under the **User** tab of Settings, not Workspace.
 
 ### Step 2b: The course kit, and its two Git files in your repository
 
-Clone the kit next to your course repository (never inside it):
+Clone the kit next to your course repository (never inside it). Launchpad task 7 does this in its step 3, in Git Bash:
 
 ```bash
 cd ~ && git clone https://github.com/Anaxionai/rn-ess-kit.git
@@ -91,7 +100,7 @@ On your Android phone, open Google Play, search for **Expo Go** (from Expo) and 
 
 Expo Go runs one Expo SDK version at a time, and it must match your project's: the course uses the SDK in `VERSIONS.md`. If Expo Go says the project's SDK is not supported, update Expo Go from Google Play, or get it from https://expo.dev/go.
 
-### Step 5: Your first Expo project (the Launchpad task does this)
+### Step 5: Your first Expo project (Launchpad task 7 does this)
 
 Your task gives the exact command. It looks like this:
 
@@ -134,7 +143,7 @@ It lists your phone with the word `device` after its serial number.
 
 ### Step 7: Expo web in the browser
 
-Your Launchpad task runs the same app in the browser. In a project made with `create-expo-app`, press `w` in the Expo terminal, or run:
+Launchpad task 12 runs the same app in the browser. In a project made with `create-expo-app`, press `w` in the Expo terminal, or run:
 
 ```bash
 npx expo start --web
