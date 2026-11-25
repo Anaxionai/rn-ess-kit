@@ -1,0 +1,24 @@
+# Check out every text file with LF line endings, on Windows too.
+# Dart, TypeScript, JSON and Gradle files then look the same on every laptop and in GitHub Actions.
+* text=auto eol=lf
+
+# Windows batch files must keep CRLF (Gradle and Flutter make gradlew.bat).
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Files that are not text: Git must never change their bytes.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.ttf binary
+*.otf binary
+*.pdf binary
+*.zip binary
+*.jar binary
+*.aab binary
+*.apk binary
+*.jks binary
+*.keystore binary

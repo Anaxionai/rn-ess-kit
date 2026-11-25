@@ -1,0 +1,51 @@
+{
+  "key": "/works/OL66554W",
+  "title": "Pride and Prejudice",
+  "authors": [
+    {
+      "author": {
+        "key": "/authors/OL21594A"
+      },
+      "type": {
+        "key": "/type/author_role"
+      }
+    }
+  ],
+  "description": {
+    "type": "/type/text",
+    "value": "Pride and Prejudice is an 1813 novel of manners written by Jane Austen. The novel follows the character development of Elizabeth Bennet, the dynamic protagonist of the book who learns about the repercussions of hasty judgments and comes to appreciate the difference between superficial goodness and actual goodness.\r\n\r\nMr. Bennet, owner of the Longbourn estate in Hertfordshire, has five daughters, but his property is entailed and can only be passed to a male heir. His wife also lacks an inheritance, so his family faces becoming very poor upon his death. Thus, it is imperative that at least one of the girls marry well to support the others, which is a motivation that drives the plot."
+  },
+  "covers": [
+    14348537,
+    8748572,
+    10538086,
+    11303419,
+    12342982,
+    13979933,
+    13893906
+  ],
+  "subjects": [
+    "Fiction, Romance, Historical, Regency",
+    "British and Irish fiction (fictional works by one author)",
+    "Brothers and sisters",
+    "Courtship",
+    "Drama",
+    "English fiction",
+    "English literature",
+    "Families"
+  ],
+  "first_publish_date": "1853",
+  "type": {
+    "key": "/type/work"
+  },
+  "latest_revision": 129,
+  "revision": 129,
+  "created": {
+    "type": "/type/datetime",
+    "value": "2009-10-16T02:23:26.818127"
+  },
+  "last_modified": {
+    "type": "/type/datetime",
+    "value": "2026-11-24T03:22:39.383098"
+  }
+}

@@ -1,0 +1,14 @@
+rules_version = '2';
+
+// A starting rules file that DENIES EVERYTHING.
+// Copy it to firestore.rules in your app's folder. Nobody can read or write
+// until you add rules that allow exactly what your app needs (P3 ShopList).
+// Test every rule in the Local Emulator Suite before you deploy it:
+// see firebase/README.md in the course kit.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
